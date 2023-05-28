@@ -20,7 +20,8 @@ The supervised LPC estimation framework for Augmented Kalman Filter-based Speech
 1. Develop a new deep learning framework, namely DeepLPC-MHANet within the Multi-Head Self Attention Network (MHANet). 
 2. DeepLPC-MHANet learns a mapping from the noisy speech LPC power spectra to the clean speech and noise LPC power spectra from where the corresponding LPC parameters are computed. 
 3. By producing less biased clean speech and noise LPC estimates, DeepLPC enables the AKF to produce enhanced speech at a higher quality and intelligibility in real-life noise conditions than [DeepLPC] (https://ieeexplore.ieee.org/document/9411829).
-![Fig1](https://github.com/sujancseru/DeepLPC-MHANet/assets/130210435/703a40ea-768f-4270-8233-85bc3cc52d38)
+
+![image](https://github.com/sujancseru/Supervised-LPC-Training-Target-AKF/assets/130210435/52b59c65-3366-48f0-a244-9b84b8f47384)
 
 # Implementation: 
 1. DeepLPC-MHANet utilize MHANet as used in [Deep Xi MHANet](https://github.com/anicolson/DeepXi).
