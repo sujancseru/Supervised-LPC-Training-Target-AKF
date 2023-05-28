@@ -33,6 +33,9 @@ Although [DeepLPC](https://ieeexplore.ieee.org/document/9411829) and [DeepLPC-MH
 ![image](https://github.com/sujancseru/Supervised-LPC-Training-Target-AKF/assets/130210435/afddcffb-d8cb-4bb1-8141-2ab0ea08b48d)
 ![image](https://github.com/sujancseru/Supervised-LPC-Training-Target-AKF/assets/130210435/3622cbe7-8cfb-4bad-acd8-8308a21a7ad0)
 
+**Training Set 1: 2500 randomly selected clean speech recordings were mixed with 2500 randomly selected noise recordings from the training set (Section 4.2) with
+SNR levels: −10 dB to +20 dB in 1 dB increments, giving 2500 noisy speech signals. For each frequency bin, 𝑚, the sample mean and variances, (𝜇𝑠, 𝜎𝑠2)
+and (𝜇𝑣, 𝜎𝑣2) were computed from 2500 concatenated clean speech and scaled noise recordings, respectively.
 
 [1] [S. K. Roy, A. Nicolson, and K. K. Paliwal, "DeepLPC: A Deep Learning Approach to Augmented Kalman Filter-Based Single-Channel Speech Enhancement," in IEEE Access, vol. 9, pp. 64524-64538, 2021, doi: 10.1109/ACCESS.2021.3075209.](https://ieeexplore.ieee.org/document/9411829)
 
