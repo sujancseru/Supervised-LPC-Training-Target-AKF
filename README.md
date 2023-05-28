@@ -1,7 +1,6 @@
-# Supervised-LPC-Training-Target-AKF
 # On supervised LPC estimation training targets for augmented Kalman filter-based speech enhancement
 
-Supervised LPC Training Target is Deep Learning Framework to find the best LPC training target as well as Deep Learning Method in [[2]](https://ieeexplore.ieee.org/document/9422809) 
+Supervised LPC Training Target is Deep Learning Framework to find the best LPC training target as well as Deep Learning Method in [[3]](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000875) 
 to optimize LPC Estimates of Augmented Kalman Filter for Speech Enhancement in Real-Life Condition. It is an extended work of previous [DeepLPC](https://ieeexplore.ieee.org/document/9411829) 
 and [DeepLPC-MHANet](https://ieeexplore.ieee.org/document/9422809). 
 
@@ -33,5 +32,7 @@ and [DeepLPC-MHANet](https://ieeexplore.ieee.org/document/9422809).
 [1] [S. K. Roy, A. Nicolson, and K. K. Paliwal, "DeepLPC: A Deep Learning Approach to Augmented Kalman Filter-Based Single-Channel Speech Enhancement," in IEEE Access, vol. 9, pp. 64524-64538, 2021, doi: 10.1109/ACCESS.2021.3075209.](https://ieeexplore.ieee.org/document/9411829)
 
 [2] [S. K. Roy, A. Nicolson, and K. K. Paliwal, "DeepLPC-MHANet: Multi-Head Self-Attention for Augmented Kalman Filter-based Speech Enhancement," in IEEE Access, vol. 9, pp. 70516-70530, 2021, doi: 10.1109/ACCESS.2021.3077281.](https://ieeexplore.ieee.org/document/9422809)
+
+[3] [1.	S. K. Roy, A. Nicolson, and K. K. Paliwal, "On Supervised LPC Estimation Training Targets for Augmented Kalman Filter-based Speech Enhancement," in Speech Communication, vol. 142, pp. 49-60, doi: https://doi.org/10.1016/j.specom.2022.06.004.](https://www.sciencedirect.com/science/article/abs/pii/S0167639322000875)
 
 
