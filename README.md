@@ -5,15 +5,15 @@ to optimize LPC Estimates of Augmented Kalman Filter for Speech Enhancement in R
 and [DeepLPC-MHANet](https://ieeexplore.ieee.org/document/9422809). 
 
 # Introduction:
-1. The accuracy of LPC estimates depend on the choice of LPC training target. In this work, we simulate four supervised training targets:
-2. 1. Line Spectrum Frequency (LSF)
-3. 2. LPC Power Spectra
-4. 3. Magnitude Spectrum 
-5. 4. Log Power Spectrum  
-6. for deep learning model for accurate LPC estimation.
-7. 
-8. Although [DeepLPC](https://ieeexplore.ieee.org/document/9411829) addresses accurate LPC estimates in noisy conditions, however, there is room for investigating state-of-the-art deep learning models for more accurate LPC parameter estimates in noisy conditions. 
-9. The accurate estimates of LPC are used in designining Augmented Kalman Filter for Speech Enhancement as shown in Fig. 1.
+The accuracy of LPC estimates depend on the choice of LPC training target. In this work, we simulate four supervised training targets:
+1. Line Spectrum Frequency (LSF)
+2. LPC Power Spectra
+3. Magnitude Spectrum
+4. Log Power Spectrum  
+for deep learning model for accurate LPC estimation.
+
+Although [DeepLPC](https://ieeexplore.ieee.org/document/9411829) and [DeepLPC-MHANet](https://ieeexplore.ieee.org/document/9422809) addresses accurate LPC estimates in noisy conditions, however, there requires a comprehensive study on supervised LPC training target for investigating state-of-the-art deep learning models for more accurate LPC parameter estimates in noisy conditions. 
+The supervised LPC estimation framework for Augmented Kalman Filter-based Speech Enhancement is shown in Fig. 1.
 
 # Key Contributions: 
 
